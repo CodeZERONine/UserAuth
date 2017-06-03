@@ -9,19 +9,19 @@
     <RelativeLayout
         android:layout_width="393dp"
         android:layout_height="519dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="1dp">
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="-53dp">
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="40dp"
             android:adjustViewBounds="true"
             android:cropToPadding="true"
-            app:srcCompat="@drawable/firebase"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true" />
+            app:srcCompat="@drawable/firebase" />
 
         <EditText
             android:id="@+id/editText1"
